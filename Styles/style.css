@@ -183,7 +183,7 @@ main section{
 
 .productive{
     border-radius: 20px;
-    background-color: #b8dffa;
+    background-color: #dff1fd;
     margin-top: 130px;
     padding: 50px 140px;
 }
@@ -269,3 +269,58 @@ main section{
 }
 
 /* Get in touch */
+.getin{
+    display: flex;
+    /* gap: 50px; */
+    background-color: #dff1fd;
+    padding-top: 30px;
+}
+
+.get-title{
+    font-size: 60px;
+    color: #252432;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.form, textarea{
+
+height: 64px;
+border-radius: 5px;
+background-color: white;
+display: block;
+width: 100%;
+border-style: none;
+padding-left: 20px;
+}
+textarea{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.get-btn{
+    color: white;
+    background-color: #0D99FF;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.get-btn:hover{
+    color: white;
+    background-color: #252432;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
