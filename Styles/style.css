@@ -93,7 +93,7 @@ main{
     border-radius: 5px;
     font-size: 16px;
     padding: 10px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .banner-btn:hover{
@@ -101,7 +101,7 @@ main{
     background-color: #252432;
     cursor: pointer;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .button{
@@ -114,28 +114,30 @@ main{
     border-radius: 20px;
     background-color: #b8dffa;
     margin-top: 130px;
-    
+    padding: 60px 50px;
+    align-items: center;
+    height: 370px;
 }
 
 
 .action-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 
 .action-title{
-    padding-top: 100px;
     max-width: 517px;
-    align-items: center;
+    padding-top: 100px;
 }
 
 .action-description{
     font-size: 20px;
     font-weight: 400;
     padding-top: 23px;
-    padding-bottom: 23px;
+    padding-right: 20px;
+    padding-bottom: 25px;
     color: rgba(37, 36, 50, 0.5);
 }
 
@@ -153,7 +155,7 @@ main{
     border-radius: 5px;
     font-size: 16px;
     padding: 10px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .action-btn:hover{
@@ -161,11 +163,46 @@ main{
     background-color: #252432;
     cursor: pointer;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .action img{
     border-radius: 20px;
     box-shadow: 5px 5px 10px;
     cursor: pointer;
+    width: 100%;
+}
+
+.productive{
+    border-radius: 20px;
+    background-color: #b8dffa;
+    margin-top: 130px;
+    padding: 50px 140px;
+}
+
+
+.productive-title{
+    color: rgba(37, 36, 50, 1);
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productive-sub{
+    color: rgba(37, 36, 50, 1);
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.productive-description{
+     font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: rgba(37, 36, 50, 0.5);
 }
