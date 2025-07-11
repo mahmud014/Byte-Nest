@@ -17,6 +17,9 @@
     color: #0D99FF;
 }
 
+body{
+    background-color: #ebf2f7;
+}
 /* Nav styles */
 
 nav{
@@ -59,7 +62,7 @@ nav ul, a{
 /* main section */
 
 main{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -122,7 +125,6 @@ main section{
     margin-top: 130px;
     padding: 60px 50px;
     align-items: center;
-    height: 370px;
 }
 
 
@@ -184,8 +186,9 @@ main section{
 .productive{
     border-radius: 20px;
     background-color: #dff1fd;
-    margin-top: 130px;
+    margin-top: 250px;
     padding: 50px 140px;
+    
 }
 
 
@@ -270,7 +273,6 @@ main section{
 
 /* Get in touch */
 .getin{
-    display: flex;
     /* gap: 50px; */
     background-color: #dff1fd;
     padding-top: 30px;
@@ -325,6 +327,13 @@ textarea{
     padding-bottom: 20px;
 }
 
+
+.get-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 /* footer style */
 
 .footer-title{
@@ -351,7 +360,10 @@ textarea{
     text-decoration: none;
     display: flex;
     padding-top: 20px;
-    color: #252432;
     font-size: 20px;
     font-weight: bold;
+}
+
+.a-color{
+    color: #252432;
 }
