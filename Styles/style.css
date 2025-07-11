@@ -324,3 +324,34 @@ textarea{
     font-weight: bold;
     padding-bottom: 20px;
 }
+
+/* footer style */
+
+.footer-title{
+    text-align: center;
+    padding: 104px 400px;
+    width: 530px;
+    height: 220px;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 400px;
+    color:rgba(37, 36, 50, 0.5);
+    padding-top: 10px;
+}
+
+.nav-bar{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+    color: #252432;
+    font-size: 20px;
+    font-weight: bold;
+}
